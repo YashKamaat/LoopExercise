@@ -75,4 +75,21 @@ while (quote !== you){
   console.log(quote.join(""));
   break;
 };
+// OR
+// USING A FOR OF LOOP
+// let sentence = "";
+// for (word of quote){
+//   console.log(word);
+//   sentence += `${word} `;
+//   console.log(sentence);
+// }
+// console.log(sentence.trim());
 
+// USING A FOR LOOP
+let sentence = "";
+for (i = 0; i < quote.length; i++){
+  // console.log(quote[i]);
+  sentence += `${quote[i]} `;
+  console.log(sentence);
+}
+// console.log(sentence.trim());
